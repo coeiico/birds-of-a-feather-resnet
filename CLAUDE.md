@@ -124,6 +124,12 @@ remove an item that is done.
   ablations as one sweep on A100s or H100s, with checkpoints and resume, since a run lasts
   hours.
 
+## Local Runs
+
+- Start every local training run, sweep or long analysis in tmux with `just bg <recipe> [args]`,
+  for example `just bg train --run-name wd1.0-seed0`. `tmux ls` lists the sessions and
+  `tmux attach -t <session>` watches one; each session's output is also in `runs/logs/`.
+
 ## Project Overview
 
 birds-of-a-feather-resnet is project 14 of 18 in the Latent Space Project: small ML repos that test whether
