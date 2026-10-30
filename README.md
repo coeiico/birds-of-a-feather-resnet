@@ -2,11 +2,7 @@
 
 **SimCLR contrastive learning.** SimCLR on CIFAR-10: do semantic categories emerge in a model trained with no labels at all?
 
-Part of the **Latent Space Project**: 18 small PyTorch repos that test one idea, that neural networks encode concepts and strategy in their latent space, and that we can read and edit those representations. Everything trains on a single consumer GPU or a laptop.
-
-| Roadmap | Phase | Depends on | Status |
-| --- | --- | --- | --- |
-| 14 of 18 | 5. Representation and generation | Nothing | Not started (scaffolded) |
+**Status:** not started.
 
 ## Question
 
@@ -28,7 +24,7 @@ Do semantic categories emerge in a model trained with no labels at all?
 
 - Classes form visible clusters, and linear-probe accuracy is far above a randomly initialized encoder.
 
-Plus the definition of done every Latent Space Project repo shares:
+Plus the general checklist:
 
 Apply this checklist with the project-specific requirements and exceptions in
 [CLAUDE.md](CLAUDE.md#project-specific-scope).
